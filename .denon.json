@@ -1,0 +1,19 @@
+{
+    "scripts": {
+        "start": {
+          "cmd": "deno run index.ts"
+        }
+    },
+    "allow":{
+        "net": true,
+        "read": true,
+        "write": true
+    },  
+    "extensions": [
+        ".ts",
+        ".graphql"
+    ],
+    "watch": [
+        "."
+    ]
+}

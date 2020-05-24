@@ -1,0 +1,9 @@
+{
+    "deno.enable": true,
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "axetroy.vscode-deno",
+        "editor.tabSize": 2,
+        "editor.comments.insertSpace": true
+    }
+}
